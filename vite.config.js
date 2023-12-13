@@ -10,5 +10,4 @@ export default defineConfig({
     outDir: "build",
   },
   plugins: [tsconfigPaths(), react()],
-  base: "/PROJECT_V8_V1_0_2/",
 });

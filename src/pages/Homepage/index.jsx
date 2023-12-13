@@ -6,6 +6,7 @@ import HomepageColumnpiegraph from "components/HomepageColumnpiegraph";
 import HomepageLogo from "components/HomepageLogo";
 import HomepageService from "components/HomepageService";
 import HomepageTestimonial from "components/HomepageTestimonial";
+import Nave from "components/Nave/Nav";
 
 const HomepagePage = () => {
   const homepageServicePropList = [
@@ -49,7 +50,7 @@ const HomepagePage = () => {
 
   return (
     <>
-
+      <Nave />
       <div className="bg-white-A700 flex flex-col items-center justify-start mx-auto w-full">
         <div className="flex flex-col items-center justify-start w-full">
           <div className="font-manrope h-[798px] md:h-[] md:m-[] md:mt-[-90px] md:px-5 relative w-full">
@@ -77,7 +78,7 @@ const HomepagePage = () => {
                     <div className="flex flex-row font-manrope gap-2.5 items-start justify-center pr-2.5 w-[13%] md:w-full">
                       <Img
                         className="h-[33px]"
-                        src="images/img_user.svg"
+
                         alt="user_One"
                       />
                       <Text
@@ -112,11 +113,7 @@ const HomepagePage = () => {
                   <div className="absolute bg-gradient  h-[93px] md:hidden inset-[0] justify-center m-auto w-full"></div>
                 </div>
               </div>
-              <Img
-                className="absolute h-[504px] object-cover right-[0] top-[0] w-[45%]"
-                src="images/img_ellipse9.png"
-                alt="ellipseNine"
-              />
+
             </div>
             <div className="absolute flex md:flex-col flex-row font-opensans md:gap-10 inset-x-[0] items-center justify-between sm:m-[] max-w-[1200px] sm:mb-[90px] mx-auto top-[20%] w-full">
               <div className="flex sm:flex-1 flex-col gap-10 items-start justify-start sm:m-[] sm:mb-[90px] w-auto sm:w-full">
